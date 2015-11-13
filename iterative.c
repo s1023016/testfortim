@@ -6,6 +6,7 @@
 
 static double diff_in_second(struct timespec t1, struct timespec t2)
 {
+	// I am a king.
     struct timespec diff;
     if (t2.tv_nsec-t1.tv_nsec < 0) {
         diff.tv_sec  = t2.tv_sec - t1.tv_sec - 1;
